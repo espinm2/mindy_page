@@ -1,0 +1,165 @@
+/* Only edit this one for style */
+
+
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.navbar{
+  background: white;
+}
+
+.navbar-header{
+      vertical-align: bottom;
+
+}
+
+#logo img{
+  height: 61px;
+  margin-top: 0px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+  /* color: #53bf6b;*/
+  background-color: #53bf6b;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: black;
+}
+
+/* .navbar-inverse */
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 60%;
+}
+
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+header.carousel .scale {
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+
+.img_container {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  text-align: center;
+}
+
+.person-box{
+    width: 100%;
+    height: 100px;
+
+}
+.person-box img{
+   float:left;
+   height: 100%;
+
+}
+
+.person-text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand{
+    width:100%;
+  }
+  .navbar-brand img{
+    padding-top:6px;
+    width:100px;
+  }
+ 
+  
+}
